@@ -16,12 +16,12 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body class="bg-light">
-    <header class="sticky-top">
+    <header class="sticky-top" tabindex="3">
         <section class="d-flex flex-column flex-md-row align-items-center">
             <article class="col-12 col-md-3 col-lg-2 bg-dark">
                 <div class="d-flex justify-content-between align-items-center p-2">
                     <a href="#" class="text-decoration-none text-light fw-bold">
-                        <img src="https://cdn.iconscout.com/icon/free/png-512/free-avatar-370-456322.png" alt="Dashboard Kit Logo" class="img-fluid" width="50"> Dashboard Kit
+                        <img src="./assets/medias/sidebar/logo.svg" alt="Dashboard Kit Logo" class="img-fluid me-2" width="50"> Dashboard Kit
                     </a>
                     <div class="text-end d-md-none">
                         <button class="btn btn-outline-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="fa-solid fa-bars"></i></button>
@@ -50,7 +50,7 @@
     <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header">
             <a href="#" class="text-decoration-none text-light fw-bold">
-                <img src="https://cdn.iconscout.com/icon/free/png-512/free-avatar-370-456322.png" alt="Dashboard Kit Logo" class="img-fluid" width="50"> Dashboard Kit
+                <img src="./assets/medias/sidebar/logo.svg" alt="Dashboard Kit Logo me-2" class="img-fluid" width="50"> Dashboard Kit
             </a>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
@@ -113,7 +113,7 @@
 
     <div class="d-flex ">
         <aside class="d-none d-md-block col-md-3 col-lg-2 bg-dark">
-            <nav class="">
+            <nav>
                 <ul class="nav flex-column nav-pills">
                     <li class="nav-item border-3 border-light border-start bg-secondary">
                         <a class="nav-link text-light" href="#">
@@ -203,7 +203,7 @@
             <!-- Today's Trend -->
             <div class="container-fluid">
                 <section class="row rounded-2 border bg-white">
-                    <article class="col-9 p-3">
+                    <article class="col-12 col-md-9 p-3">
                         <h5>Today's trends</h5>
                         <div class="d-flex justify-content-between text-secondary opacity-75 pb-2">
                             <p class="small">as of 25 May 2019, 09:41 PM</p>
@@ -213,32 +213,32 @@
                             <img src="./assets/medias/full graph.png" alt="graph" class="img-fluid w-100">
                         </figure>
                     </article>
-                    <article class="col border p-0">
+                    <article class="col-12 col-md border p-0">
                         <div class="p-4 border text-center">
-                            <h6 class="text-secondary opacity-75">Resolved</h6>
-                            <h3>449</h3>
+                            <h6 class="text-secondary opacity-75 fw-bold">Resolved</h6>
+                            <h3 class="fw-bold">449</h3>
                         </div>
                         <div class="p-4 border text-center">
-                            <h6 class="text-secondary opacity-75">Received</h6>
-                            <h3>426</h3>
+                            <h6 class="text-secondary opacity-75 fw-bold">Received</h6>
+                            <h3 class="fw-bold">426</h3>
                         </div>
                         <div class="p-4 border text-center">
-                            <h6 class="text-secondary opacity-75">Average first response time</h6>
-                            <h3>33m</h3>
+                            <h6 class="text-secondary opacity-75 fw-bold">Average first response time</h6>
+                            <h3 class="fw-bold">33m</h3>
                         </div>
                         <div class="p-4 border text-center">
-                            <h6 class="text-secondary opacity-75">Average response time</h6>
-                            <h3>3h 8m</h3>
+                            <h6 class="text-secondary opacity-75 fw-bold">Average response time</h6>
+                            <h3 class="fw-bold">3h 8m</h3>
                         </div>
                         <div class="p-4 border text-center">
-                            <h6 class="text-secondary opacity-75">Resolution within SLA</h6>
-                            <h3>94%</h3>
+                            <h6 class="text-secondary opacity-75 fw-bold">Resolution within SLA</h6>
+                            <h3 class="fw-bold">94%</h3>
                         </div>
                     </article>
                 </section>
             </div>
             <!-- Unresolved tickets & Tasks -->
-            
+
         </main>
     </div>
 
