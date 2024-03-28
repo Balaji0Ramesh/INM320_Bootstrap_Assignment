@@ -240,100 +240,66 @@
             <!-- Unresolved tickets & Tasks -->
 
             <div class="container">
-                <div class="row pt-4 pb-4">
-                  <div class="col-md bg-white rounded-2">
-                    <div class="container mt-3">
-                      <table class="table table-borderless">
-                        <thead>
-                          <tr>
-                            <th scope="col" class="text-left">Unresolved tickets
-                              <br>
-                              <small style="color: gray;">Group: Support</small>
-                            </th>
-                            <th scope="col" class="text-right" style="color: blue;">View details
-                              <br>
-                              <small class="hide-text">_</small>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td class="text-left" style="border-bottom: 1px solid #ccc;">Waiting on Feature Request</td>
-                            <td class="text-right text-secondary" style="border-bottom: 1px solid #ccc;">4238</td>
-                          </tr>
-                          <tr>
-                            <td class="text-left" style="border-bottom: 1px solid #ccc;">Awaiting Customer Response</td>
-                            <td class="text-right text-secondary" style="border-bottom: 1px solid #ccc;">1005</td>
-                          </tr>
-                          <tr>
-                            <td class="text-left" style="border-bottom: 1px solid #ccc;">Awaiting Developer Fix</td>
-                            <td class="text-right text-secondary" style="border-bottom: 1px solid #ccc;">914</td>
-                          </tr>
-                          <tr>
-                            <td class="text-left">Pending</td>
-                            <td class="text-right text-secondary">281</td>
-                          </tr>
-                        </tbody>
-                      </table>
+                <section class="row gx-4 justify-content-between pt-4 pb-4">
+                  <article class="col-12 col-md-6">
+                    <div class="card px-3">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h5>Unresolved tickets</h5>
+                        <a class="text-end text-decoration-none" href="#">View details</a>
+                      </div>
+                      <p class="small mb-4"><span class="text-secondary">Group: </span>Support</p>
+                      <div class="d-flex justify-content-between align-items-center border-bottom">
+                        <p class="my-3 fw-medium">Waiting on Feature Request</p>
+                        <p class="my-3  text-end text-secondary">4238</p>
+                      </div>
+                      <div class="d-flex justify-content-between align-items-center border-bottom">
+                        <p class="my-3 fw-medium">Awaiting Customer Response</p>
+                        <p class="my-3  text-end text-secondary">1005</p>
+                      </div>
+                      <div class="d-flex justify-content-between align-items-center border-bottom">
+                        <p class="my-3 fw-medium">Awaiting Developer Fix</p>
+                        <p class="my-3  text-end text-secondary">914</p>
+                      </div>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <p class="my-3 fw-medium">Pending</p>
+                        <p class="my-3  text-end text-secondary">281</p>
+                      </div>
                     </div>
-                  </div>
-                  <div class="col-md-1"></div>
-                  <div class="col-md bg-white rounded-2">
-                    <div class="container mt-3">
-                      <table class="table table-borderless">
-                        <thead>
-                          <tr>
-                            <th scope="col" class="text-left">Tasks
-                              <br>
-                              <small>Today</small>
-                            </th>
-                            <th scope="col" class="text-right" style="color: blue;">View all</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td class="text-left" style="border-bottom: 1px solid #ccc;">Create new task</td>
-                            <td class="text-right" style="border-bottom: 1px solid #ccc;"><i class="fas fa-plus"></i></td>
-                          </tr>
-                          <tr>
-                            <td class="text-left">
-                                <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="finishTicketUpdate1">
-                                    <label class="custom-control-label" for="finishTicketUpdate1">Finish ticket update</label>
-                                </div>
-                            </td>
-                            <td class="text-right">
-                                <span class="badge rounded-pill" style="background-color: #ffc107;">Urgent</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="text-left">
-                                <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="finishTicketUpdate2">
-                                    <label class="custom-control-label"  for="finishTicketUpdate2">Create new ticket example</label>
-                                </div>
-                            </td>
-                            <td class="text-right">
-                                <span class="badge rounded-pill" style="background-color: #00ff4c;">NEW</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="text-left">
-                                <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="finishTicketUpdate3">
-                                    <label class="custom-control-label" for="finishTicketUpdate3">Update ticket report</label>
-                                </div>
-                            </td>
-                            <td class="text-right">
-                                <span class="badge rounded-pill" style="background-color: #c9c9c9;">Default</span>
-                            </td>
-                        </tr>
-                        </tbody>
-                      </table>
+                  </article>
+                  <article class="col-12 col-md-6">
+                    <div class="card px-3">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h5>Tasks</h5>
+                        <a class="text-end text-decoration-none" href="#">View all</a>
+                      </div>
+                      <p class="small mb-4 text-secondary">Today</p>
+                      <div class="d-flex justify-content-between align-items-center border-bottom">
+                        <p class="my-3 text-secondary">Create new task</p>
+                        <i class="my fa-solid fa-square-plus text-secondary text-end"></i>
+                      </div>
+                      <div class="d-flex justify-content-between align-items-center border-bottom">
+                        <p class="my-3 fw-medium"><i class="fa-regular fa-circle text-secondary me-2"></i> Finish ticket update</p>
+                        <div class="text-end">
+                          <button class="btn btn-warning btn-sm small">URGENT</button>
+                        </div>
+                      </div>
+                      <div class="d-flex justify-content-between align-items-center border-bottom">
+                        <p class="my-3 fw-medium"><i class="fa-regular fa-circle text-secondary me-2"></i> Finish ticket update</p>
+                        <div class="text-end">
+                          <button class="btn btn-success btn-sm small">NEW</button>
+                        </div>
+                      </div>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <p class="my-3 fw-medium"><i class="fa-solid fa-circle-check text-primary me-2"></i> Update ticket report</p>
+                        <div class="text-end">
+                          <button class="btn btn-secondary btn-sm small">DEFAULT</button>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
+                  </article>
+                </section>
               </div>
+          
 
         </main>
     </div>
